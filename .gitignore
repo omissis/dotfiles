@@ -2,3 +2,10 @@
 *.LSOverride
 Thumbs.db
 .bundle
+
+# IDEs
+.phpstorm.meta.php
+phpcs.extra.xml
+.idea
+.vscode
+

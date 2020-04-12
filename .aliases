@@ -1,0 +1,22 @@
+# Aliases
+
+## system
+alias ll="ls -Ghal"
+
+## git
+alias gbl="git br -l --sort=-committerdate"
+
+## docker
+alias de="docker exec -it"
+alias dr="docker run -it"
+alias dc="docker-compose"
+alias dm="docker-machine"
+alias denv="eval $(docker-machine env default)"
+
+## kubernetes
+alias k="kubectl"
+alias kp="kubectl-ppro"
+
+## helm
+alias h2="/usr/local/opt/helm@2/bin/helm"
+alias h3="/usr/local/bin/helm"
